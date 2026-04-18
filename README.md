@@ -1,27 +1,25 @@
 # Student Information Management System
 
-A robust C++ command-line application designed to manage, search, and analyze student records efficiently.
-
 ## 📝 Description
-This project is a comprehensive management system developed to handle student databases. It features data persistence using text files and provides advanced statistical tools for academic performance analysis.
+This repository contains an advanced student management application developed as a major assignment for the **Advanced Programming** course. The system is designed to handle complex data operations, ensuring accuracy and efficiency in academic record management.
+
+
 
 ## 🚀 Key Features
-- **Student Management (CRUD):** Add, edit, and delete student records including ID, Name, Birth Date, Address, Email, and Phone Number.
-- **Search Engine:** - Exact ID lookup.
-  - Approximate name search (case-insensitive).
-- **Statistics & Reporting:**
-  - Sorting functions by ID, Name (A-Z), and GPA (Descending).
-  - Automated reports: Highest/Lowest scores by subject, GPA-based classification (Excellent, Good, Fair, etc.).
-- **Data Persistence:** Automatic data synchronization with `student_list.txt`.
+- **Comprehensive CRUD Operations:** Add, modify, and delete student profiles (ID, Full Name, Birth Date, Address, Email, and Phone).
+- **Advanced Search Engine:** Supports exact match for Student IDs and fuzzy search for names (case-insensitive).
+- **Statistical Analysis:**
+  - Dynamic sorting by ID, Name (A-Z), and GPA (Descending).
+  - Academic performance classification (Excellent, Good, Fair, etc.).
+  - Subject-specific analysis (Highest/Lowest scores).
+- **Data Persistence:** Seamless integration with `student_list.txt` for long-term storage.
 
 ## 📂 Project Structure
-- `student_management_system.cpp`: The core logic and implementation in C++.
-- `student_list.txt`: The database file storing student records.
-- `*.json`: Configuration and metadata files (local environment).
+- `student_management_system.cpp`: Main logic and data structure implementation.
+- `student_list.txt`: The database containing student records.
+- `.gitignore`: Configured to exclude build artifacts and local environment settings.
 
-## 🛠️ How to Run
-1. Clone the repository to your local machine.
-2. Ensure you have a C++ compiler installed (e.g., `g++`).
-3. Compile the source code:
+## 🛠️ Installation & Usage
+1. **Compile the source code:**
    ```bash
    g++ student_management_system.cpp -o StudentManager

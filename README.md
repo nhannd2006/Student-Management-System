@@ -1,25 +1,32 @@
-# Student Information Management System
+# Student-Management-System
 
-## 📝 Description
-This repository contains an advanced student management application developed as a major assignment for the **Advanced Programming** course. The system is designed to handle complex data operations, ensuring accuracy and efficiency in academic record management.
+## 📝 Description | Mô tả
+- **English**: A major assignment for the **Advanced Programming** course, building a robust program for student record management and analysis[cite: 2].
+- **Tiếng Việt**: Bài tập lớn môn **Kỹ thuật lập trình**, xây dựng chương trình quản lý và phân tích hồ sơ sinh viên nâng cao[cite: 2].
 
+## 👤 Author Information | Thông tin Tác giả
+- **Project | Đồ án**: Student Information Management System [cite: 2]
+- **Course | Học phần**: Advanced Programming (Kỹ thuật lập trình) [cite: 2]
+- **Author | Tác giả**: Nguyễn Đăng Nhân (ID: 24280038) [cite: 1, 14]
+- **Class | Lớp**: 24KDL1
+- **University | Trường**: VNU-HCM University of Science (Đại học Khoa học Tự nhiên, ĐHQG-HCM)
+- **Completion Date | Ngày hoàn thành**: 21/06/2025
 
+## 🚀 Key Features | Các tính năng chính
+- **Management | Quản lý**: Full CRUD support for student profiles (ID, Name, Birth Date, etc.) | Hỗ trợ đầy đủ các thao tác Thêm, Sửa, Xóa hồ sơ sinh viên[cite: 2].
+- **Search | Tìm kiếm**: Exact ID lookup and approximate name search | Tra cứu chính xác theo MSSV và tìm kiếm gần đúng theo tên[cite: 2].
+- **Statistics | Thống kê**: Sorting by multiple criteria and performance classification | Sắp xếp đa tiêu chí và xếp loại học lực[cite: 2].
+- **Persistence | Lưu trữ**: Automatic data synchronization with `student_list.txt` | Tự động đồng bộ dữ liệu với tệp `student_list.txt`[cite: 1, 2].
 
-## 🚀 Key Features
-- **Comprehensive CRUD Operations:** Add, modify, and delete student profiles (ID, Full Name, Birth Date, Address, Email, and Phone).
-- **Advanced Search Engine:** Supports exact match for Student IDs and fuzzy search for names (case-insensitive).
-- **Statistical Analysis:**
-  - Dynamic sorting by ID, Name (A-Z), and GPA (Descending).
-  - Academic performance classification (Excellent, Good, Fair, etc.).
-  - Subject-specific analysis (Highest/Lowest scores).
-- **Data Persistence:** Seamless integration with `student_list.txt` for long-term storage.
+## 📂 Project Structure | Cấu trúc dự án
+- `student_management_system.cpp`: Main source code | Mã nguồn chính của chương trình[cite: 2].
+- `student_list.txt`: Database file storing student data | Tệp cơ sở dữ liệu lưu trữ hồ sơ sinh viên[cite: 1].
+- `.gitignore`: Excludes build artifacts and local configs | Loại bỏ các tệp rác và cấu hình cục bộ.
 
-## 📂 Project Structure
-- `student_management_system.cpp`: Main logic and data structure implementation.
-- `student_list.txt`: The database containing student records.
-- `.gitignore`: Configured to exclude build artifacts and local environment settings.
+## 🛠️ How to Run | Hướng dẫn chạy
+```bash
+# Compile | Biên dịch
+g++ student_management_system.cpp -o StudentManager
 
-## 🛠️ Installation & Usage
-1. **Compile the source code:**
-   ```bash
-   g++ student_management_system.cpp -o StudentManager
+# Execute | Chạy chương trình
+./StudentManager

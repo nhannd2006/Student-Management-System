@@ -3,7 +3,7 @@
  * Course: Advanced Programming (Kỹ thuật lập trình)
  * Author: Nguyễn Đăng Nhân (ID: 24280038) 
  * Class: 24KDL1
- * University: VNU-HCM University of Science (Đại học Khoa học Tự nhiên, Đại học Quốc gia HCM)
+ * University: VNU-HCM, University of Science (Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia TP. Hồ Chí Minh)
  * Completion Date: 21/06/2025
  * Description: A C++ program for managing student records with sorting and statistical analysis features.
  *****************************************************************************/

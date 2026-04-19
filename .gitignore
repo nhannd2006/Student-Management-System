@@ -33,3 +33,7 @@
 
 # Data logs or temporary files
 *.log
+
+# data files
+*.txt
+*.csv
